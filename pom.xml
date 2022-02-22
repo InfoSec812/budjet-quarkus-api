@@ -134,7 +134,7 @@
               <artifactVersion>${project.version}</artifactVersion>
               <output>${project.basedir}</output>
               <skipOverwrite>false</skipOverwrite>
-              <inputSpec>https://raw.githubusercontent.com/InfoSec812/budjet/06-convert-to-vite/openapi.yml</inputSpec>
+              <inputSpec>${project.basedir}/src/main/resources/META-INF/openapi.yaml</inputSpec>
               <templateDirectory>${project.basedir}/templates</templateDirectory>
               <configOptions>
                 <dateLibrary>java8</dateLibrary>
